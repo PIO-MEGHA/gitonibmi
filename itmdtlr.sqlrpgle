@@ -74,7 +74,7 @@ exec sql SET OPTION COMMIT = *NONE, CLOSQLCSR = *ENDMOD ;
 move_fields();
 
 exfmt ITDETAIL;
-
+// test
 dow (screen.cancel = FALSE and
     screen.exit   = FALSE and
     exit_flag     = FALSE);
